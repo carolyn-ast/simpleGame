@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 600px;
+    height: 800px;
+    margin: 18px auto;
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+    font-size: 27px;
+    color: rgb(10, 97, 23);
+}
+
+span {
+    font-size: 25px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-image: linear-gradient(to bottom right, #5ae046, #e72615);
+    color: white;
+    border: none;
+}
+
+#game {
+    position: relative;
+    margin-top: 10px;
+    height: 600px;
+    background-image: url(./leave.jpg);
+    background-size: cover;
+}
+
+#bug {
+    position: absolute;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
